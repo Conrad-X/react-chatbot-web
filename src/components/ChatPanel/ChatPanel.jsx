@@ -8,6 +8,8 @@ import "./ChatPanel.css";
 
 const USER_MESSAGE_TYPE = "user";
 const ASSISTANT_MESSAGE_TYPE = "assistant";
+const ERROR_MESSAGE_TYPE = "error";
+const ERROR_MESSAGE = "There seems to be an issue, please try again or contact administrator."
 
 let timeout = false;
 
@@ -40,6 +42,11 @@ function ChatPanel({ minimize }) {
         let messageObject = createMessage(res.data.content.replace(/【[0-9]*†source】/g, ''), ASSISTANT_MESSAGE_TYPE);
         setMessage(messageObject);
         setLoading(false)
+      }).catch((error)=>{
+        console.error(error.message)
+        setLoading(false)
+        let messageObject = createMessage(ERROR_MESSAGE, ERROR_MESSAGE_TYPE);
+        setMessage(messageObject);
       });
     }
   };
