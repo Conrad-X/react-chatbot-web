@@ -18,3 +18,5 @@ The following screenshot references to the mobile view comprising of it's UI com
 
 The following video shows how the chatbot is segregated within the host application and its functionality in terms of usage
 
+https://github.com/Conrad-X/react-chatbot-web/assets/6302514/0d823995-d8d9-44a1-a88e-7e7e89e7231f
+
