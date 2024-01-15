@@ -14,4 +14,7 @@ This project was generated with [Create React App]([https://github.com/angular/a
 The following screenshot references to the mobile view comprising of it's UI components <br/>
 <img width="300" alt="Screenshot 2024-01-02 at 1 12 32 AM" src="https://github.com/Conrad-X/chatbot-web/assets/6302514/486a402c-8560-433d-ac9b-360c41649917">
 
+## Usage Video
+
+The following video shows how the chatbot is segregated within the host application and its functionality in terms of usage
 
