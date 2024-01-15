@@ -1,8 +1,8 @@
 ## About
 
 This project was generated with [Create React App]([https://github.com/angular/angular-cli](https://create-react-app.dev/)) with `React` version `18.2.0` and comprises of the web client interface for [chatbot-server](https://github.com/Conrad-X/chatbot-server), which generates responses based on `OpenAI` assistant.
-- Run `npm start:dev` for a dev server. Navigate to `http://localhost:3000/`.
-- Run `npm run build build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Run `npm run start:dev` for a dev server. Navigate to `http://localhost:3000/`.
+- Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Color Palette
 [Link To Color Palette](https://colorhunt.co/palette/ecf4d69ad0c22d9596265073) 
