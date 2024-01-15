@@ -54,7 +54,9 @@ The environment variable used within this application exists within two files `.
 ```
 REACT_APP_BASE_URL=http://localhost:8000
 ```
- Please note that no additional tool or code needs to be written as react handles the `.env` files themeselves, whenever you run `npm start` the priority of `.env.development` would be the highest and whenever you run `npm run build` the priority of `.env.production` would be the highest.
+You will be creating another file named `.env.production` with the same key variable with the value of your `production` server
+
+**Please note** that no additional tool or code needs to be written as react handles the `.env` files themeselves, whenever you run `npm start` the priority of `.env.development` would be the highest and whenever you run `npm run build` the priority of `.env.production` would be the highest.
 
 
 ## Color Palette
