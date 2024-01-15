@@ -9,6 +9,15 @@
   overflow: auto;
 }
 
+/* 
+  In case the chatbot glitches on resizing the window, the only remedy or fix for that 
+  would be to fix the chatbot message panel height, here are the steps to achieve that
+
+  1. remove `flex: 1` from `.message-panel-container`
+  2. remove `max-height: 50dvh` from `.message-panel-container`
+  3. add `height: 455px` in `.message-panel-container`
+*/
+
 .message-container {
   display: flex;
 }
