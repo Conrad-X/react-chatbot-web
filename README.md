@@ -1,8 +1,28 @@
 ## About
 
 This project was generated with [Create React App]([https://github.com/angular/angular-cli](https://create-react-app.dev/)) with `React` version `18.2.0` and comprises of the web client interface for [chatbot-server](https://github.com/Conrad-X/chatbot-server), which generates responses based on `OpenAI` assistant.
-- Run `npm run start:dev` for a dev server. Navigate to `http://localhost:3000/`.
+- Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
 - Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## How To Integrate the Chatbot In Your Application?
+Firstly, since this chatbot is based in React, it will only be compatible with react projects <= `18.2.0`, please note all styles have written in `.css` files. Here's the breakdown of the application as stated below
+
+    .
+    ├── public                  
+    ├── src                     
+        ├── components
+            ├── ChatPanel       
+            ├── Header
+            ├── MessagePanel
+            ├── UserInput
+        ├── App.js
+        ├── App.css
+        ├── index.js
+        ├── index.css
+    ├── package.json             
+    ├── README.md                
+
+The `ChatPanel` component acts as a wrapper of the whole chatbot functionality, if you plan on integrating it into your codebase, you would need all component folders listed here. After moving all the components, I would suggest that you take a look at `App.js` and `App.css` which transforms the `ChatPanel` component into a mini widget that can be minimized and maximized as shown in the video attached below. The styles and functionality listed in `App.css` and `App.js` would need to be replicated within the component you intend on integrating with. 
 
 ## Color Palette
 [Link To Color Palette](https://colorhunt.co/palette/ecf4d69ad0c22d9596265073) 
