@@ -25,7 +25,7 @@ Firstly, since this chatbot is based in React, it will only be compatible with r
 The `ChatPanel` component acts as a wrapper of the whole chatbot functionality, if you plan on integrating it into your codebase, you would need all component folders listed here. After moving all the components, I would suggest that you take a look at `App.js` and `App.css` which transforms the `ChatPanel` component into a mini widget that can be minimized and maximized as shown in the video attached below. The styles and functionality listed in `App.css` and `App.js` would need to be replicated within the component you intend on integrating with. 
 
 Secondly, please make sure to place the following within `index.html`, these are a few styling and functional dependency of the bot.
-```
+```html
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
       rel="stylesheet"
