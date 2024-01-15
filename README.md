@@ -24,6 +24,30 @@ Firstly, since this chatbot is based in React, it will only be compatible with r
 
 The `ChatPanel` component acts as a wrapper of the whole chatbot functionality, if you plan on integrating it into your codebase, you would need all component folders listed here. After moving all the components, I would suggest that you take a look at `App.js` and `App.css` which transforms the `ChatPanel` component into a mini widget that can be minimized and maximized as shown in the video attached below. The styles and functionality listed in `App.css` and `App.js` would need to be replicated within the component you intend on integrating with. 
 
+Secondly, please make sure to place the following within `index.html`, these are a few styling and functional dependency of the bot.
+```
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <script>
+      fetch("https://api.ipify.org?format=json")
+        .then((response) => response.json())
+        .then((data) => {
+          localStorage.setItem("ip", data.ip);
+        })
+        .catch((error) => {
+          console.log("Error:", error);
+        });
+    </script>
+```
+
 ## Environment Variable
 The environment variable used within this application exists within two files `.env.development` and `.env.production`, the following is the variable used for `development` mode application which will be picked up whenever you run `npm start`
 
