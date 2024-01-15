@@ -1,0 +1,23 @@
+.chat-panel{
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+  z-index: 20000;
+  background-color: white;
+  border: 0px;
+  height: 600px;
+  Width: 350px;
+  text-align: left;
+}
+
+.hidden{
+  height: 60px !important;
+}
+
+.chat-container{
+  background-color: #e0e0e03b;
+  width:100%;
+  height:100dvh;
+  text-align: center;
+  padding-top:30px;
+}
