@@ -36,6 +36,7 @@ Secondly, please make sure to place the following within `index.html`, these are
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
+    <!-- Used to fetch IP & Mac Address to uniquely identify the machine -->
     <script>
       fetch("https://api.ipify.org?format=json")
         .then((response) => response.json())
