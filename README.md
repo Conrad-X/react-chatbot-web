@@ -24,6 +24,15 @@ Firstly, since this chatbot is based in React, it will only be compatible with r
 
 The `ChatPanel` component acts as a wrapper of the whole chatbot functionality, if you plan on integrating it into your codebase, you would need all component folders listed here. After moving all the components, I would suggest that you take a look at `App.js` and `App.css` which transforms the `ChatPanel` component into a mini widget that can be minimized and maximized as shown in the video attached below. The styles and functionality listed in `App.css` and `App.js` would need to be replicated within the component you intend on integrating with. 
 
+## Environment Variable
+The environment variable used within this application exists within two files `.env.development` and `.env.production`, the following is the variable used for `development` mode application which will be picked up whenever you run `npm start`
+
+```
+REACT_APP_BASE_URL=http://localhost:8000
+```
+ Please note that no additional tool or code needs to be written as react handles the `.env` files themeselves, whenever you run `npm start` the priority of `.env.development` would be the highest and whenever you run `npm run build` the priority of `.env.production` would be the highest.
+
+
 ## Color Palette
 [Link To Color Palette](https://colorhunt.co/palette/ecf4d69ad0c22d9596265073) 
 
