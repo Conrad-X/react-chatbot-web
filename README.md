@@ -38,14 +38,23 @@ REACT_APP_BASE_URL=http://localhost:8000
 
 <img width="300" alt="Screenshot 2024-01-02 at 1 12 32 AM" src="https://github.com/Conrad-X/chatbot-web/assets/6302514/8edb10ba-8dcf-4f52-88f5-de62e83c771e">
 
-## Screenshots
-
-The following screenshot references to the mobile view comprising of it's UI components <br/>
-<img width="300" alt="Screenshot 2024-01-02 at 1 12 32 AM" src="https://github.com/Conrad-X/chatbot-web/assets/6302514/486a402c-8560-433d-ac9b-360c41649917">
-
 ## Usage Video
 
 The following video shows how the chatbot is segregated within the host application and its functionality in terms of usage
 
 https://github.com/Conrad-X/react-chatbot-web/assets/6302514/0d823995-d8d9-44a1-a88e-7e7e89e7231f
+
+
+## Screenshots
+
+The following screenshot references to the mobile view comprising of it's UI components <br/>
+
+<img width="300" alt="Screenshot 2024-01-02 at 1 12 32 AM" src="https://github.com/Conrad-X/chatbot-web/assets/6302514/486a402c-8560-433d-ac9b-360c41649917">
+
+The following screenshot refers to the mobile view when the bot experiences an error from the server, the possible error case is `internal server error` or `server not responding` 
+
+<img width="300" alt="Screenshot 2024-01-16 at 2 03 37 AM" src="https://github.com/Conrad-X/react-chatbot-web/assets/6302514/fcec2fc1-2693-410a-80b8-2a12d3710ac5">
+
+
+
 
