@@ -2,7 +2,7 @@
 
 This project was generated with [Create React App]([https://github.com/angular/angular-cli](https://create-react-app.dev/)) with `React` version `18.2.0` and comprises of the web client interface for [chatbot-server](https://github.com/Conrad-X/chatbot-server), which generates responses based on `OpenAI` assistant.
 - Run `npm start` for a dev server. Navigate to `http://localhost:3000/`.
-- Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Run `npm run build` to build the project. The build artifacts will be stored in the `build/` directory.
 
 ## How To Integrate the Chatbot In Your Application?
 Firstly, since this chatbot is based in React, it will only be compatible with react projects <= `18.2.0`, please note all styles have written in `.css` files. Here's the breakdown of the application as stated below
