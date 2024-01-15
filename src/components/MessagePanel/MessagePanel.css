@@ -59,6 +59,6 @@
   right: 22px;
 }
 
-.error > .message-container > .message {
+.error > .message {
   background-color: #ffe0e0 !important;
 }

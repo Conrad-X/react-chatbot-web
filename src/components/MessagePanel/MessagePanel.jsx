@@ -55,7 +55,7 @@ function MessagePanel({ message, loading, hide }) {
               className="message-inner-container"
               style={{ justifyContent: "flex-start" }}
             >
-              <div className="message-container">
+              <div className={ message.sender === ASSISTANT_MESSAGE_TYPE? "message-container": "message-container error"}>
                 <div className="message assistant-message-style">
                   {message.content}
                 </div>
