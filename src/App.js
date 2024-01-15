@@ -3,7 +3,7 @@ import "./App.css";
 import ChatPanel from "./components/ChatPanel/ChatPanel";
 
 function App() {
-  let [hide, setHide] = useState(false);
+  let [hide, setHide] = useState(true);
 
   const minimize = (flag) => {
     setHide(flag)

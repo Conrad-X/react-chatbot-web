@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Header.css"
 
 function Header({ minimizePanel }) {
-  let [toggle, setToggle] = useState(false);
+  let [toggle, setToggle] = useState(true);
 
   const hide = () => {
     minimizePanel(!toggle)
