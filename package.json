@@ -40,7 +40,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx eslint --fix --ext .js,.jsx,.ts,.tsx ."
+      "pre-commit": "npx eslint --ext .js,.jsx,.ts,.tsx ."
     }
   },
   "devDependencies": {
