@@ -24,6 +24,7 @@ function ChatPanel({ minimize }) {
         processMessage(message);
         timeout = true;
         setTimeout(() => timeout = false, 2000)
+        console.log("hello")
       }
     }
   };
