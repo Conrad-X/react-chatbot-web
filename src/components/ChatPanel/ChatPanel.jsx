@@ -20,9 +20,12 @@ function ChatPanel({ minimize }) {
 
   const sendMessage = (message) => {
     if(!timeout){
-      processMessage(message);
-      timeout = true;
-      setTimeout(() => timeout = false, 2000)
+      if(message){
+        processMessage(message);
+        timeout = true;
+        setTimeout(() => timeout = false, 2000)
+        console.log("Hello")
+      }
     }
   };
 
