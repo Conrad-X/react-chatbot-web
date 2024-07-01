@@ -1,16 +1,20 @@
-import { useState } from "react";
-import "./Header.css"
+import React from 'react';
+import { useState } from 'react';
+import './Header.css';
 
 function Header({ minimizePanel }) {
   let [toggle, setToggle] = useState(true);
 
   const hide = () => {
-    minimizePanel(!toggle)
-    setToggle(!toggle)
+    minimizePanel(!toggle);
+    setToggle(!toggle);
   };
 
   return (
-    <section className="header-outer-container" onClick={hide}>
+    <section
+      className="header-outer-container"
+      onClick={hide}
+    >
       <section className="header-container">
         <img src="./assets/conrad-labs-logo.png" alt="" />
         <div className="heading">Policy Bot</div>

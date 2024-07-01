@@ -1,1 +1,2 @@
-echo "Pre-commit Hook ..."
+echo "Pre-commit Hook Linting ..."
+npx eslint --ext .jsx,.tsx .

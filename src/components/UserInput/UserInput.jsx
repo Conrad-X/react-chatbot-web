@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useDebounce } from "use-debounce";
 import "./UserInput.css";
 
 function UserInput({ sendMessage }) {
