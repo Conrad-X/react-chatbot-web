@@ -15,7 +15,7 @@ function MessagePanel({ message, loading, hide }) {
   let avatarPath = "./assets/bot-path.png";
 
   const scrollToBottom = () => {
-    //messagesEndRef?.current?.scrollIntoView({ behavior: "smooth" })
+    messagesEndRef.current.scrollIntoView({ behavior: "smooth" })
   }
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function MessagePanel({ message, loading, hide }) {
     } else if (message.sender === ASSISTANT_MESSAGE_TYPE) {
       audioToggle.current.play();
     }
-  }, [data, message]);
+  }, [message]);
 
   useEffect(() => {
     scrollToBottom();
